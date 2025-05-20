@@ -88,9 +88,9 @@ function Navbar() {
               className="inline-flex items-center justify-center p-2 rounded-md text-white font-bold hover:text-blue-600 hover:bg-gray-100 focus:outline-none"
             >
               {!isMenuOpen ? (
-                <RxHamburgerMenu size={"22px"} />
+                <RxHamburgerMenu size={"24px"} />
               ) : (
-                <RxCross2 size={"22px"} />
+                <RxCross2 size={"24px"} />
               )}
             </button>
           </div>
