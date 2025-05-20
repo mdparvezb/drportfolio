@@ -4,7 +4,7 @@ import Home from './pages/Home'
 import AboutIr from './pages/AboutIr'
 import AboutDr from './pages/AboutDr'
 import Treatment from './pages/Treatment'
-import Contact from './pages/contact'
+import Contact from './pages/Contact'
 
 function App() {
 
