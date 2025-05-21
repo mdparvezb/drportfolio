@@ -23,7 +23,7 @@ const ServiceCard = () => {
       <div className="flex flex-col items-center text-center p-6 md:w-[30%] sm:w-[100%] mx-auto">
         <FaUserDoctor size={"100px"} className="text-blue-600" />
         <h2 className="text-md font-medium text-black pt-4 mb-4">
-          EXPERIENCE DOCTOR
+          EXPERIENCED DOCTOR
         </h2>
         <p className="text-gray-600">
           10 years of experience in Endovascular & Interventional Radiology,

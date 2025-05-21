@@ -5,7 +5,7 @@ function CallBtn({ text = "Call Now" }) {
     <div>
     <a
       href="tel:919448525672"
-      className="flex justify-center font-medium hover:opacity-80 cursor-pointer gap-2 bg-orange-600 text-white py-2 px-10 rounded-full  items-center"
+      className="flex justify-center shadow-md hover:shadow-xl font-medium hover:opacity-95 cursor-pointer gap-2 bg-orange-600 text-white py-2 px-10 rounded-full  items-center"
     >
       {text} <MdAddIcCall size={"20px"} />
     </a>
