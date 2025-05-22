@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const AboutCard = () => {
   return (
     <div className="flex flex-col justify-center items-center md:flex-col lg:flex-row bg-gray-200 px-6 py-20 md:px-30">
-      <div className="w-full lg:w-[50%] md:px-10 p-10">
+      <div className="w-full lg:w-[50%] md:px-10 p-10 hover:-translate-y-1 transition-all">
         <img
           src={docotorimg}
           alt="doctor image"

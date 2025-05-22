@@ -7,7 +7,7 @@ const ServiceCard = () => {
   return (
     <div className="w-full md:flex sm:block gap-4 px-4 py-2 mt-10">
       {/* First Card */}
-      <div className="flex flex-col items-center text-center p-6 md:w-[30%] sm:w-[100%] mx-auto">
+      <div className="flex flex-col items-center text-center p-6 md:w-[30%] sm:w-[100%] mx-auto shadow-xl hover:shadow-2xl hover:-translate-y-1 transition-all hover:cursor-pointer rounded-md">
         <LuBriefcaseMedical size={"100px"} className="text-blue-600" />
         <h2 className="text-md font-medium pt-4 text-black mb-4">
           ADVANCE TECHNOLOGY
@@ -20,7 +20,7 @@ const ServiceCard = () => {
       </div>
 
       {/* 2nd Card */}
-      <div className="flex flex-col items-center text-center p-6 md:w-[30%] sm:w-[100%] mx-auto">
+      <div className="flex flex-col items-center text-center p-6 md:w-[30%] sm:w-[100%] mx-auto shadow-xl hover:shadow-2xl hover:-translate-y-1 transition-all hover:cursor-pointer rounded-md">
         <FaUserDoctor size={"100px"} className="text-blue-600" />
         <h2 className="text-md font-medium text-black pt-4 mb-4">
           EXPERIENCED DOCTOR
@@ -33,7 +33,7 @@ const ServiceCard = () => {
       </div>
 
       {/* 3rd Card */}
-      <div className="flex flex-col items-center text-center p-6 md:w-[30%] sm:w-[100%] mx-auto">
+      <div className="flex flex-col items-center text-center p-6 md:w-[30%] sm:w-[100%] mx-auto shadow-xl hover:shadow-2xl hover:-translate-y-1 transition-all hover:cursor-pointer rounded-md">
         <LuAmbulance size={"100px"} className="text-blue-600" />
         <h2 className="text-md font-medium text-black pt-4 mb-4">
           24/7 AVAILABILITY
