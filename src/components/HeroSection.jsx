@@ -1,9 +1,11 @@
-import img1 from "../assets/hero-img1.jpg";
-import img2 from "../assets/hero-img2.jpg";
+import slide1 from "../assets/slide1.jpg";
+import slide2 from "../assets/slide2.jpg";
+import slide3 from "../assets/slide3.jpg";
+import slide4 from "../assets/slide4.jpg";
 import SimpleImageSlider from "react-simple-image-slider";
 
 function HeroSection() {
-  const images = [{ url: img1 }, { url: img2 }];
+  const images = [{ url: slide1 }, { url: slide2 }, { url: slide3 }, { url: slide4 }];
 
   return (
     <>
@@ -19,11 +21,11 @@ function HeroSection() {
         />
       </div>
 
-      <div className="w-full md:hidden sm:block">
+      <div className="w-full lg:hidden sm:block">
         <SimpleImageSlider
           className=""
           width={"100%"}
-          height={"50vh"}
+          height={"40vh"}
           images={images}
           showBullets={true}
           showNavs={false}

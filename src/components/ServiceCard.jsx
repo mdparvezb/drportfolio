@@ -2,6 +2,7 @@ import React from "react";
 import { LuAmbulance } from "react-icons/lu";
 import { FaUserDoctor } from "react-icons/fa6";
 import { LuBriefcaseMedical } from "react-icons/lu";
+import "../index.css";
 
 const ServiceCard = () => {
   return (
