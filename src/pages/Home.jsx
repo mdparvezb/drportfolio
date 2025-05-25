@@ -1,17 +1,13 @@
 import HeroSection from "../components/HeroSection";
-import Navbar from "../components/Navbar";
 import ServiceCard from "../components/ServiceCard";
 import CallBtn from "../components/CallBtn.jsx";
 import WhatsappBtn from "../components/WhatsappBtn.jsx";
 import AboutCard from "../components/AboutCard.jsx";
 import surgeryimg from "../assets/surgery.jpg";
-import { Link } from "react-router-dom";
-import Footer from "../components/Footer.jsx";
 
 function Home() {
   return (
     <>
-      <Navbar />
       <HeroSection />
       <ServiceCard />
       {/* Book an Appointment Section */}
@@ -90,7 +86,6 @@ function Home() {
           </p>
         </div>
       </div>
-      <Footer />
     </>
   );
 }

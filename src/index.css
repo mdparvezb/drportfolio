@@ -1,9 +1,13 @@
 @import "tailwindcss";
 
+* {
+  font-family: "Poppins";
+}
+
 .animate {
   animation: animationEffect ease-in-out both;
   animation-timeline: view();
-  animation-range: entry 30% cover 50%;
+  animation-range: entry 30% cover 20%;
 }
 
 @keyframes animationEffect {

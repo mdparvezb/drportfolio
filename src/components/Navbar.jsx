@@ -10,19 +10,6 @@ function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
 
-  // Handle scroll event to add shadow to navbar
-  useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY > 10) {
-        setIsScrolled(true);
-      } else {
-        setIsScrolled(false);
-      }
-    };
-
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
 
   return (
     <nav
@@ -67,7 +54,7 @@ function Navbar() {
               Treatment Facilities
             </Link>
             <Link
-              to="about-doctor"
+              to="contact-us"
               className="text-white hover:text-red-600 px-2 py-2 text-md font-bold transition-colors"
             >
               Contact Us

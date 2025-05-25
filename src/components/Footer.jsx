@@ -20,8 +20,8 @@ function Footer() {
             <MdLocationOn size={"50px"} className="text-white" />
             <span className="text-white">
               Interventional Radiology OPD <br />
-              HCG - Suchirayu Hospital, Off Gokul Road, Near KSRTC bus Depot,
-              Hubli - 580030
+              HCG - Suchirayu Hospital, Gokul Road, Near KSRTC Bus Depot, Hubli
+              - 580030, Karnataka
             </span>
           </div>
           <div className="flex items-center md:justify-center gap-3">
@@ -46,21 +46,32 @@ function Footer() {
           </h2>
           <ul className="flex flex-col md:flex-row gap-8 text-gray-300">
             <li>
-              <Link className="hover:text-blue-500">Home</Link>
+              <Link to={"/"} className="hover:text-blue-500">
+                Home
+              </Link>
             </li>
             <li>
-              <Link className="hover:text-blue-500">About Doctor</Link>
+              <Link to={"/about-doctor"} className="hover:text-blue-500">
+                About Doctor
+              </Link>
             </li>
             <li>
-              <Link className="hover:text-blue-500">About IR</Link>
+              <Link to={"/about-ir"} className="hover:text-blue-500">
+                About IR
+              </Link>
             </li>
             <li>
-              <Link className="hover:text-blue-500">
+              <Link
+                to={"/treatment-facilities"}
+                className="hover:text-blue-500"
+              >
                 Treatment and Facilities
               </Link>
             </li>
             <li>
-              <Link className="hover:text-blue-500"> Contact Us</Link>
+              <Link to={"/contact-us"} className="hover:text-blue-500">
+                Contact Us
+              </Link>
             </li>
           </ul>
         </div>
@@ -68,7 +79,7 @@ function Footer() {
         <div className="flex gap-6 py-6 justify-center">
           <a
             target="_blank"
-            href="/"
+            href="#"
             className="w-8 h-8 hover:translate-y-1 active:translate-y-1 transition-all"
           >
             <img src={facebook} alt="facebook image" />
@@ -82,7 +93,7 @@ function Footer() {
           </a>
           <a
             target="_blank"
-            href=""
+            href="#"
             className="w-8 h-8 hover:translate-y-1 active:translate-y-1 transition-all"
           >
             <img src={twitter} alt="facebook image" />
@@ -97,7 +108,7 @@ function Footer() {
         </div>
       </footer>
       {/* Copyright Section */}
-      <div className="flex justify-center items-center py-1 bg-black">
+      <div className="flex justify-center items-center py-2 bg-black">
         <p className="text-white text-center text-md">
           &copy;{new Date().getFullYear()} &nbsp;
           <Link className="text-blue-500" to="/">

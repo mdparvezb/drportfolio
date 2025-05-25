@@ -1,56 +1,83 @@
 import doctorimg from "../assets/doctorimage.png";
-import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";
+
+import slide3 from "../assets/slide3.jpg";
+import CallBtn from "../components/CallBtn";
+import WhatsappBtn from "../components/WhatsappBtn";
 
 function AboutDr() {
   return (
     <>
-      <Navbar />
-      <div className="flex flex-col mx-auto justify-center items-center bg-gray-200 px-6 py-10 md:px-30">
-        <h2 className="text-3xl font-bold text-center">ABOUT THE DOCTOR</h2>
-        <div className="w-full lg:w-[50%] md:px-10 p-10 hover:-translate-y-1 transition-all">
+      <div className="w-full flex flex-col-reverse md:flex-row justify-center items-center px-4 md:px-10 py-8 bg-gray-100">
+        <div className="w-full flex flex-col md:w-[50%] px-2 md:px-8 ">
+          <h2 className="text-2xl md:text-4xl text-blue-800 font-bold">
+            Dr. Venaktesh H
+            <br />
+            Interventional Radiologist
+            <br />
+            in North Karnataka, Hubli
+          </h2>
+          <p className="text-gray-600 py-4 text-lg tracking-wide">
+            I am Dr. Venkatesh H, an{" "}
+            <strong>
+              Interventional Radiologist in North Karnataka Hubli, India
+            </strong>
+            . I offer minimally invasive interventions which can treat complex
+            medical conditions without the need for surgery.
+          </p>
+        </div>
+        <div className="w-full flex items-center justify-center md:w-[50%]">
           <img
             src={doctorimg}
             alt="doctor image"
-            className="w-full rounded-md shadow-[3px_3px_10px_rgba(0,0,0,0.2)]"
+            className="rounded-r-[150px] md:w-[60%] py-6"
           />
         </div>
-        <div className="w-full lg:w-[80%]">
-          <h2 className="text-2xl text-center text-black font-bold">
+      </div>
+
+      <div className="w-full flex md:flex-row flex-col justify-center items-center px-2 md:px-4 py-4">
+        <div className="w-full flex items-center justify-center py-4 md:w-[50%]  ">
+          <img
+            src={slide3}
+            alt="doctor image"
+            className="md:w-[80%] rounded-bl-[100px] shadow-[0px_0px_10px_rgba(0,0,0,0.3)]"
+          />
+        </div>
+
+        <div className="w-full flex flex-col md:w-[50%] px-1 md:px-10">
+          <h2 className="text-xl text-center py-2 text-black font-bold">
             DR. VENKATESH H A
           </h2>
-          <h3 className="py-2 text-sm text-center text-red-600 font-bold">
+          <h4 className="py-2 text-sm text-center text-red-600 font-bold">
             MD (AIIMS, New Delhi), PDCC (ILBS), FKSIR, EDiR, dICRI
-          </h3>
-          <p className="py-4 text-md font-medium">
+          </h4>
+          <p className="py-2 text-sm font-medium">
             Chief & Senior Consultant of Interventional Radiology
           </p>
-          <p className="text-md">
-            Dr. Venkatesh is a well known practitioner in the field of Minimally
-            Invasive Neurovascular and Interventional Radiology, currently
-            working in HCG Suchirayu Hospital, Hubballi, Karnataka. He has more
-            than 10 years of experience in Endovascular & Interventional
-            Radiology, being trained and certified from various premier national
-            and international institutes. He has done MD in Radiodiagnosis &
-            Interventional Radiology from All India Institute of Medical
-            Sciences, New Delhi, a premier institute of our country. He also has
-            an additional fellowship degree in Interventional Radiology from
-            Institute of Liver & Biliary Sciences, New Delhi. He was one among
-            the few people in Asian countries to be selected for an
-            international fellowship under the reputed Korean Society of
-            Interventional Radiology. He also holds a training certificate from
-            Asan Medical Center, the biggest hospital in South Korea. He has
-            previously worked in AIIMS – New Delhi, JPN apex trauma centre – New
-            Delhi, RP centre – New Delhi, BRA – IR cancer centre – New Delhi,
-            Apollo BGS-Mysore, ILBS-New Delhi and KIMS-Trivandrum. He has been
-            faculty for various national and international Interventional
-            radiology conferences. He has a number of publications to his
-            credit.
+          <p className="text-sm">
+            Dr. Venkatesh is a distinguished specialist in the field of
+            Minimally Invasive Neurovascular and Interventional Radiology,
+            currently practicing at HCG Suchirayu Hospital in Hubballi,
+            Karnataka. With over a decade of expertise in Endovascular and
+            Interventional Radiology, he brings a wealth of experience, having
+            received advanced training and certification from several
+            prestigious national and international institutions.
+            <br />
+            He holds an{" "}
+            <strong>
+              MD in Radiodiagnosis and Interventional Radiology
+            </strong>{" "}
+            from the{" "}
+            <strong>
+              All India Institute of Medical Sciences (AIIMS), New Delhi
+            </strong>{" "}
+            — one of the most esteemed medical institutions in the country.
           </p>
-          <div className="pt-4 w-full flex justify-center"></div>
         </div>
       </div>
-      <Footer />
+      <div className="flex justify-center gap-6 py-8 bg-gray-200">
+        <CallBtn />
+        <WhatsappBtn className />
+      </div>
     </>
   );
 }
