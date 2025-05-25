@@ -7,7 +7,7 @@ function AboutIR() {
         ABOUT INTERVENTIONAL RADIOLOGY
       </h1>
       <div className="flex flex-col px-4 lg:px-60 py-4">
-        <h2 className="text-2xl font-bold text-blue-900 py-6 text-left">
+        <h2 className="text-xl md:text-2xl font-bold text-blue-900 py-6 text-left">
           Who We Are ( Vascular & Interventional Radiologist )?
         </h2>
         <p className="lg:pr-20 text-lg text-gray-700">
@@ -116,9 +116,7 @@ function AboutIR() {
           <li className="list-disc border-b-1 border-gray-200 py-2">
             FNAC – Biopsy
           </li>
-          <li className="list-disc py-2">
-            Drainage Procedure
-          </li>
+          <li className="list-disc py-2">Drainage Procedure</li>
         </ul>
       </div>
     </>

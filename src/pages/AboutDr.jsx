@@ -74,7 +74,7 @@ function AboutDr() {
           </p>
         </div>
       </div>
-      <div className="flex justify-center gap-6 py-8 bg-gray-200">
+      <div className="flex flex-col md:flex-row px-4 justify-center gap-6 py-6 bg-gray-200">
         <CallBtn />
         <WhatsappBtn className />
       </div>

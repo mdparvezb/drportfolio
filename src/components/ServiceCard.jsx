@@ -6,7 +6,7 @@ import "../index.css";
 
 const ServiceCard = () => {
   return (
-    <div className="w-full md:flex sm:block gap-4 px-4 py-2 mt-10">
+    <div className="w-full flex flex-col md:flex md:flex-row gap-y-4 md:gap-4 px-4 py-2 mt-10">
       {/* 1st Card */}
       <div className="flex flex-col items-center text-center p-6 md:w-[30%] sm:w-[100%] mx-auto shadow-xl hover:shadow-[0px_0px_20px_rgba(0,0,0,0.2)] active:shadow-[0px_0px_20px_rgba(0,0,0,0.2)] hover:-translate-y-1 active:-translate-y-1 transition-all hover:cursor-pointer rounded-md">
         <LuBriefcaseMedical size={"100px"} className="text-blue-600" />
