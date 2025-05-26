@@ -8,14 +8,10 @@ import WhatsappBtn from "./WhatsappBtn";
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [isScrolled, setIsScrolled] = useState(false);
-
 
   return (
     <nav
-      className={`w-full bg-[#0003AA] content-between top-0 left-0 z-50 transition-all duration-300 ${
-        isScrolled ? "w-[95%]" : "w-full"
-      }`}
+      className={`w-full bg-[#0003AA] content-between top-0 left-0 z-50 transition-all duration-300`}
     >
       {/* Desktop Menu */}
       <div className="w-full sm:px-6 lg:px-8">

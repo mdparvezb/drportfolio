@@ -4,6 +4,10 @@
   font-family: "Poppins";
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .animate {
   animation: animationEffect ease-in-out both;
   animation-timeline: view();
