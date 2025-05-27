@@ -58,7 +58,7 @@ function HeroSection() {
 
         {/*Right Arrow  */}
         <div
-          className="flex items-center justify-center absolute top-[50%] translate-y-[50%] right-6 w-10 h-10 bg-gray-900 rounded text-white opacity-80 cursor-pointer select-none"
+          className="flex items-center justify-center absolute top-[40%] md:translate-y-[50%] right-6 w-10 h-10 bg-gray-900 rounded text-white opacity-80 cursor-pointer select-none"
           onClick={rightArrowHandler}
         >
           <FaArrowRight size={20} />
@@ -66,7 +66,7 @@ function HeroSection() {
 
         {/*Left Arrow  */}
         <div
-          className="flex items-center justify-center absolute top-[50%] translate-y-[50%] left-6 w-10 h-10 bg-gray-900 rounded text-white opacity-80 cursor-pointer select-none"
+          className="flex items-center justify-center absolute top-[40%] md:translate-y-[50%] left-6 w-10 h-10 bg-gray-900 rounded text-white opacity-80 cursor-pointer select-none"
           onClick={leftArrowHandler}
         >
           <FaArrowLeft size={20} />
