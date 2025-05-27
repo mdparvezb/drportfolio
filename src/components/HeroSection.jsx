@@ -49,7 +49,7 @@ function HeroSection() {
 
   return (
     <>
-      <div className="w-full h-[40vh] md:h-[90vh] relative">
+      <div className="w-full h-[35vh] md:h-[90vh] relative">
         <img
           src={images[imgIndex].url}
           alt=""
