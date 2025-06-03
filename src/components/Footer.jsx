@@ -20,20 +20,19 @@ function Footer() {
             <MdLocationOn size={"50px"} className="text-white" />
             <span className="text-white">
               Interventional Radiology OPD <br />
-              HCG - Suchirayu Hospital, Gokul Road, Near KSRTC Bus Depot, Hubli
-              - 580030, Karnataka
+              Parsik Hill Rd, off Uran Road, opp. Nerul Wonders Park, Sector 23, CBD Belapur, Navi Mumbai, Maharashtra 400614
             </span>
           </div>
           <div className="flex items-center md:justify-center gap-3">
             <MdAddIcCall size={"25px"} className="text-white" />
-            <a href="tel:919448525672" className="text-white text-lg">
-              +91-9448525672
+            <a href="tel:9441234567" className="text-white text-lg">
+              +91-9441234567
             </a>
           </div>
           <div className="flex items-center md:justify-center gap-3">
             <MdEmail size={"25px"} className="text-white" />
             <a href="mailto:rdaiims@gmail.com" className="text-white text-lg">
-              drvenk.rdaiims@gmail.com
+             drjohndoe@gmail.com
             </a>
           </div>
         </div>
@@ -86,7 +85,7 @@ function Footer() {
           </a>
           <a
             target="_blank"
-            href=""
+            href="#"
             className="w-8 h-8 hover:translate-y-1 active:translate-y-1 transition-all"
           >
             <img src={instagram} alt="facebook image" />
@@ -100,7 +99,7 @@ function Footer() {
           </a>
           <a
             target="_blank"
-            href="mailto:drvenk.rdaiims@gmail.com"
+            href="mailto:drjohndoe@gmail.com"
             className="w-8 h-8 hover:translate-y-1 active:translate-y-1 transition-all"
           >
             <img src={mail} alt="facebook image" />
@@ -112,7 +111,7 @@ function Footer() {
         <p className="text-white text-center text-md">
           &copy;{new Date().getFullYear()} &nbsp;
           <Link className="text-blue-500" to="/">
-            irvenk.com
+            drjohndoe
           </Link>
           . All rights reserved.
         </p>

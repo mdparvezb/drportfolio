@@ -31,7 +31,7 @@ function Home() {
           {/* Card One */}
           <div className="flex flex-col justify-center items-center p-4">
             <h4 className="text-5xl font-bold text-[#8C85FF] text-center tracking-normal">
-              10000+
+              30000+
             </h4>
             <p className="text-md text-white text-center tracking-widest">
               Happy Patients
@@ -41,7 +41,7 @@ function Home() {
           {/*  Card Two */}
           <div className="flex flex-col justify-center items-center p-4">
             <h4 className="text-5xl font-bold text-[#8C85FF] text-center tracking-normal">
-              8000+
+              15000+
             </h4>
             <p className="text-md text-white tracking-widest text-center">
               Procedures performed
@@ -52,7 +52,7 @@ function Home() {
 
           <div className="flex flex-col justify-center items-center p-4">
             <h4 className="text-5xl font-bold text-[#8C85FF] text-center tracking-normal">
-              10+
+              15+
             </h4>
             <p className="text-md text-white tracking-widest text-center">
               Years of experience
@@ -79,10 +79,10 @@ function Home() {
           </h4>
           <hr className="w-[100px] text-red-600 my-4" />
           <p className="text-center text-md text-gray-800">
-            Through a tiny nick in your skin, IRs use catheters to treat many
-            conditions that once required major open surgery or are difficult to
-            treat, such as cancers, diseased blood vessels, uterine fibroids,
-            varicose veins, and enlarged prostate.
+            Interventional Radiologists (IRs) use image-guided techniques and
+            tiny incisions to treat a wide range of conditions that once
+            required major open surgery—including cancers, diseased blood
+            vessels, uterine fibroids, varicose veins, and enlarged prostate.
           </p>
         </div>
       </div>

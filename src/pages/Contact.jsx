@@ -11,13 +11,15 @@ function Contact() {
 
           <div className="space-y-4">
             <div className="flex items-start">
-              <FiMapPin className="text-indigo-600 mt-1 mr-3" size={20} />
+              <FiMapPin className="text-indigo-600 mt-1 mr-3" size={30} />
               <div>
                 <h3 className="font-medium">Our Location</h3>
                 <p className="text-gray-600">
                   Interventional Radiology OPD <br />
-                  HCG - Suchirayu Hospital, Gokul Road, Near KSRTC bus Depot,
-                  Hubli - 580030, Karnataka
+                  Apollo Hospital
+                  <br />
+                  Parsik Hill Rd, off Uran Road, opp. Nerul Wonders Park, Sector
+                  23, CBD Belapur, Navi Mumbai, Maharashtra 400614
                 </p>
               </div>
             </div>
@@ -30,8 +32,8 @@ function Contact() {
               <div>
                 <h3 className="font-medium">Phone Number</h3>
                 <p className="text-gray-600">
-                  <a href="tel:919448525672" className="hover:text-indigo-600">
-                    +91-9448525672
+                  <a href="tel:9441234567" className="hover:text-indigo-600">
+                    +91-9441234567
                   </a>
                 </p>
               </div>
@@ -49,11 +51,10 @@ function Contact() {
                     href="mailto:drvenk.rdaiims@gmail.com"
                     className="hover:text-indigo-600"
                   >
-                    drvenk.rdaiims@gmail.com
+                    drjohndoe@gmail.com
                   </a>
                 </p>
               </div>
-              
             </div>
 
             <div className="flex items-start">
@@ -66,12 +67,11 @@ function Contact() {
                 <p className="text-gray-600">
                   Monday - Saturday: 10:00 AM - 8:00 PM
                 </p>
-                <p className="text-gray-600">Sunday: 11:00 AM - 5:00 PM</p>
               </div>
             </div>
           </div>
           <div className="flex justify-center mt-8">
-          <WhatsappBtn />
+            <WhatsappBtn />
           </div>
         </div>
 
@@ -150,7 +150,7 @@ function Contact() {
           Our Location
         </h2>
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3847.440518308268!2d75.12189627378014!3d15.35261075822621!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb8d73bf6a02d87%3A0x6f87c8f3931ba1d8!2sHCG%20Suchirayu%20Hospital%20-%20Hubli!5e0!3m2!1sen!2sin!4v1748171013633!5m2!1sen!2sin"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.978270496762!2d73.02652707387342!3d19.020679153709516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c3903a3c9297%3A0xb858a25d34856005!2sApollo%20Hospital%2C%20Navi%20Mumbai!5e0!3m2!1sen!2sin!4v1748963694104!5m2!1sen!2sin"
           width="100%"
           height="450"
           loading="lazy"

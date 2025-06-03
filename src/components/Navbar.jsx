@@ -18,8 +18,8 @@ function Navbar() {
         <div className="flex px-6 items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <div>
-            <Link to="/" className="text-xl font-bold text-white">
-              DR. VENKATESH H
+            <Link to="/" className="text-2xl font-bold text-white">
+              Dr. John Doe
             </Link>
           </div>
 
@@ -57,7 +57,7 @@ function Navbar() {
             </Link>
 
             <a
-              href="tel:919448525672"
+              href="tel:9441234567"
               className="text-white text-2xl hover:text-red-600 px-2 py-2 text-md font-bold transition-colors"
             >
               <MdAddIcCall />
